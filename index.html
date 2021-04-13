@@ -24,15 +24,20 @@
         </datalist>
         <small>Saisir le numero</small>
 
-        <form name="form">
-            <select name="" id="num">
-                <script>
-                    
-                </script>
-            </select>
-        </form>
+        <input type="tel" id="code" name="code" list="defaultCodes"
+        size="4" minlength="4" maxlength="4">
+        <datalist id="defaultCodes">
+            <option value="0001">
+            <option value="0002">
+            <option value="0003">
+            <option value="0004">
+            <option value="0005">
+        </datalist>
+        <small>Saisir le code</small>
 
-        <button onclick="main()">#221#</button>
+        
+
+        <button onclick="main()">Valider</button>
     </div>
 </body>
 
